@@ -19,25 +19,7 @@ A full-stack personal finance tracker built using Java for the backend (console 
 ---
 
 ## 🧱 Project Structure
-Finance_Project/
-├── bin/ # Compiled Java classes
-├── lib/ # Future external libraries
-├── src/
-│ ├── model/
-│ │ ├── Transaction.java
-│ │ └── TransactionType.java
-│ ├── service/
-│ │ └── TransactionManager.java
-│ ├── storage/
-│ │ └── StorageManager.java
-│ ├── Main.java
-│ └── web-ui/
-│ ├── index.html
-│ ├── style.css
-│ └── script.js
-├── transactions.csv # Auto-generated file for data
-├── README.md
-
+<pre><code> Finance_Project/ │ ├── src/ │ ├── model/ │ │ ├── Transaction.java │ │ └── TransactionType.java │ │ │ ├── service/ │ │ └── TransactionManager.java │ │ │ ├── storage/ │ │ └── StorageManager.java │ │ │ ├── web-ui/ │ │ ├── index.html │ │ ├── style.css │ │ └── script.js │ │ │ ├── Main.java │ └── transactions.csv │ ├── README.md └── .gitignore </code></pre>
 
 ---
 
